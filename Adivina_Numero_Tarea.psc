@@ -17,7 +17,7 @@ Proceso Adivina_Numero
 	FinMientras
 	
 	Si num_secreto=num_ingresado Entonces
-		Escribir "Exacto! Usted adivino en ",11-intentos," intentos."
+		Escribir "Muy bien usted adivino en ",11-intentos," intentos."
 	SiNo
 		Escribir "El numero era: ",num_secreto
 		FinSi
